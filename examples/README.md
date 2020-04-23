@@ -12,6 +12,7 @@ Following the wiring instructions on the learn.adafruit.com site. The following 
 $ sudo apt-get install python3-pip<br>
 $ pip3 install adafruit-blinka<br>
 $ pip3 install adafruit-circuitpython-busdevice<br>
+$ pip3 install adafruit-circuitpython-rgb-display<br>
 $ sudo apt-get install python3-pil<br>
 </blockquote>
 
