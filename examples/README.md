@@ -1,4 +1,4 @@
-The examples in this folder are based on code written by Adafruit:
+The examples in this folder are based on code written by Adafruit. Please see the license file in this directory.
 
 https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display
 
@@ -17,7 +17,7 @@ $ pip3 install digitalio
 </blockquote>
 
 <h3>Examples</h3>
-There are two examples.
+There are two examples here.
 
 Example 1 will display a shark on the screen. 
 <blockquote>
