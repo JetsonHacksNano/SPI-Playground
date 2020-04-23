@@ -26,7 +26,7 @@ $ python3 rgb_display_pillow_image.py
 
 The second example shows some of the Jetson stats on the display:
 <blockquote>
-rgb_display_pillow_stats.py
+$ python3 rgb_display_pillow_stats.py
 </blockquote>
 
 
