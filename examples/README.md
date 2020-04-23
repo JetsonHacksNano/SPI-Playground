@@ -13,7 +13,6 @@ $ sudo apt-get install python3-pip<br>
 $ pip3 install adafruit-blinka<br>
 $ pip3 install adafruit-circuitpython-busdevice<br>
 $ sudo apt-get install python3-pil<br>
-$ pip3 install digitalio
 </blockquote>
 
 <h3>Examples</h3>
