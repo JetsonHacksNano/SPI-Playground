@@ -15,7 +15,7 @@ From the instructions, first fix the __init__ functions:
 $ sudo find /opt/nvidia/jetson-io/ -mindepth 1 -maxdepth 1 -type d -exec touch {}/__init__.py \;
 </blockquote>
 
-Next, if you are using a Jetson Nano, copy the dtb file for the Nano to /boot/dtb
+If you are using a Jetson Nano and JetPack 4.3, there is an additional step needed that is not documented in the above document. If you are using a Jetson Nano, copy the dtb file for the Nano to /boot/dtb
 <blockquote>
 $ sudo mkdir /boot/dtb<br>
 $ sudo cp -v /boot/tegra210-p3448-0000-p3449-0000-[ab]0[012].dtb /boot/dtb/
@@ -36,5 +36,5 @@ In the 'examples' folder, there are sample Python scripts to run an Adafruit ST7
 <ul>
   <li>JetPack 4.3, L4T 32.3.1</li>
   <li>Jetson Development Kits</li>
-  <li>Test on Jetson Nano Development Kit</li>
+  <li>Tested on Jetson Nano Development Kit</li>
  </ul>
